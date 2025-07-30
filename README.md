@@ -17,25 +17,6 @@ Mini e-commerce moderno criado com **React**, **Vite**, **Zustand** (com persist
 
 ---
 
-## 📁 Estrutura de pastas (prevista)
-
-my-ecommerce-react-app/
-├─ public/
-│ └─ imagens, ícones, etc.
-├─ src/
-│ ├─ assets/ → imagens e ícones
-│ ├─ components/ → Header, Footer, ProductCard, CartDrawer
-│ ├─ pages/ → Home.tsx, Product.tsx, Cart.tsx
-│ ├─ store/ → Zustand com persistência (cartStore.ts)
-│ ├─ hooks/ → useCart.ts, useProducts.ts
-│ ├─ types/ → Product.ts, CartItem.ts
-│ ├─ services/ → api.ts (fetch da API)
-│ ├─ App.tsx
-│ ├─ main.tsx
-│ └─ vite.config.ts
-
----
-
 ## 🧱 Tecnologias e libs
 
 - [React](https://react.dev/)
