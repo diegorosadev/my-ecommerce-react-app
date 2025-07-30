@@ -1,36 +1,64 @@
-# my-ecommerce-react-app
-🛒 Mini e-commerce criado com React, Vite, Zustand e Material UI. Inclui listagem de produtos, carrinho com persistência local e UI moderna com componentes do MUI.
+# 🛒 my-ecommerce-react-app
 
-📦 my-ecommerce-app/
+Mini e-commerce moderno criado com **React**, **Vite**, **Zustand** (com persistência local), **Material UI (MUI)** e **TanStack Query**. O projeto tem foco em arquitetura clara, componentização e boas práticas para um front-end escalável.
+
+---
+
+## ✨ Funcionalidades previstas
+
+- 🛍️ Listagem de produtos com imagens, títulos, preços e categorias  
+- ➕ Adicionar e remover itens do carrinho  
+- 💾 Persistência do carrinho via **localStorage**  
+- 🎯 Filtro de produtos por categoria  
+- 📊 Cálculo automático do subtotal  
+- 🚀 Fetch otimizado com **TanStack Query**  
+- 🌙 Modo escuro opcional  
+- 🌐 Deploy automatizado na **Vercel**
+
+---
+
+## 📁 Estrutura de pastas (prevista)
+
+my-ecommerce-react-app/
 ├─ public/
-│  └─ (logo, ícones, etc.)
+│ └─ imagens, ícones, etc.
 ├─ src/
-│  ├─ assets/               → imagens e ícones
-│  ├─ components/           → Header, Footer, ProductCard, CartDrawer
-│  ├─ pages/                → Home.tsx, Product.tsx, Cart.tsx
-│  ├─ store/                → cartStore.ts (Zustand + persist)
-│  ├─ hooks/                → useCart.ts, useProducts.ts (com TanStack Query)
-│  ├─ types/                → Product.ts, CartItem.ts
-│  ├─ services/             → api.ts (fetch dos produtos)
-│  ├─ App.tsx
-│  └─ main.tsx
-├─ tailwind.config.js
-├─ tsconfig.json
-└─ vite.config.ts
+│ ├─ assets/ → imagens e ícones
+│ ├─ components/ → Header, Footer, ProductCard, CartDrawer
+│ ├─ pages/ → Home.tsx, Product.tsx, Cart.tsx
+│ ├─ store/ → Zustand com persistência (cartStore.ts)
+│ ├─ hooks/ → useCart.ts, useProducts.ts
+│ ├─ types/ → Product.ts, CartItem.ts
+│ ├─ services/ → api.ts (fetch da API)
+│ ├─ App.tsx
+│ ├─ main.tsx
+│ └─ vite.config.ts
 
-📦 Funcionalidades principais:
-🛒 Adicionar/remover do carrinho
+---
 
-🧠 Zustand com persistência (localStorage)
+## 🧱 Tecnologias e libs
 
-🔍 Filtro por categoria
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [Zustand](https://zustand-demo.pmnd.rs/)
+- [Material UI (MUI)](https://mui.com/)
+- [TanStack Query](https://tanstack.com/query/latest)
+- [TypeScript](https://www.typescriptlang.org/)
 
-💵 Cálculo automático de subtotal
+---
 
-📦 Listagem com TanStack Query (ex: consumindo https://fakestoreapi.com/products)
+## 🧪 API de produtos
 
-💅 UI com Tailwind ou Material UI
+A listagem será baseada na API pública do [Fake Store API](https://fakestoreapi.com/products).
 
-🌙 Dark mode opcional
+---
 
-🚀 Deploy na Vercel
+## 🚀 Deploy
+
+Será feito com [Vercel](https://vercel.com/), com build automatizado via GitHub.
+
+---
+
+## 📌 Status
+
+> 🟡 Projeto em desenvolvimento — ainda não iniciado oficialmente.
