@@ -1,10 +1,11 @@
-# 🛒 my-ecommerce-react-app
+# 🛒 My E-commerce React App
 
-Mini e-commerce moderno criado com **React**, **Vite**, **Zustand** (com persistência local), **Material UI (MUI)** e **TanStack Query**. O projeto tem foco em arquitetura clara, componentização e boas práticas para um front-end escalável.
+Mini e-commerce moderno criado com **React**, **Vite**, **Zustand**, **Material UI (MUI)** e **TanStack Query**.  
+O projeto tem foco em **arquitetura clara, componentização e boas práticas**, ideal para aprendizado avançado de front-end e portfólio de React pleno.
 
 ---
 
-## ✨ Funcionalidades previstas
+## ✨ Funcionalidades planejadas
 
 - 🛍️ Listagem de produtos com imagens, títulos, preços e categorias  
 - ➕ Adicionar e remover itens do carrinho  
@@ -15,31 +16,33 @@ Mini e-commerce moderno criado com **React**, **Vite**, **Zustand** (com persist
 - 🌙 Modo escuro opcional  
 - 🌐 Deploy automatizado na **Vercel**
 
+> Cada funcionalidade foi pensada para praticar **conceitos avançados de React**: hooks, state management, componentização, performance, patterns e testes.
+
 ---
 
 ## 🧱 Tecnologias e libs
 
-- [React](https://react.dev/)
-- [Vite](https://vitejs.dev/)
-- [Zustand](https://zustand-demo.pmnd.rs/)
-- [Material UI (MUI)](https://mui.com/)
-- [TanStack Query](https://tanstack.com/query/latest)
-- [TypeScript](https://www.typescriptlang.org/)
+- [React](https://react.dev/) – base do projeto  
+- [TypeScript](https://www.typescriptlang.org/) – tipagem e arquitetura  
+- [Vite](https://vitejs.dev/) – build e desenvolvimento rápido  
+- [Zustand](https://zustand-demo.pmnd.rs/) – state global moderno  
+- [TanStack Query](https://tanstack.com/query/latest) – consumo de API e cache  
+- [Material UI (MUI)](https://mui.com/) – design system e componentes reutilizáveis  
 
 ---
 
 ## 🧪 API de produtos
 
-A listagem será baseada na API pública do [Fake Store API](https://fakestoreapi.com/products).
+A listagem será baseada na API pública do [Fake Store API](https://fakestoreapi.com/products).  
+Isso permite focar **no front-end avançado** sem se preocupar com backend real.
 
 ---
 
-## 🚀 Deploy
+## 🚀 Instalação e execução local
 
-Será feito com [Vercel](https://vercel.com/), com build automatizado via GitHub.
+Clone o repositório e instale dependências:
 
----
-
-## 📌 Status
-
-> 🟡 Projeto em desenvolvimento — ainda não iniciado oficialmente.
+```bash
+git clone https://github.com/SEU-USUARIO/my-ecommerce-react-app.git
+cd my-ecommerce-react-app
+npm install
